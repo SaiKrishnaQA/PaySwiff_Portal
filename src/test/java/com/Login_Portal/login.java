@@ -25,6 +25,7 @@ public class login {
 	DriverUtilsImpl library = new DriverUtilsImpl();
 	com.FTCash.Panel.loginpage objects = new com.FTCash.Panel.loginpage();
 	
+	//login
 	@BeforeTest
 	public void setupSuite() throws Throwable{
 		
