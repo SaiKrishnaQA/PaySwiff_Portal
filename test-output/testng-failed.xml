@@ -3,19 +3,92 @@
 <suite thread-count="4" name="Failed suite [sample]" parallel="tests">
   <test name="sampleClass(failed)" parallel="tests">
     <classes>
+      <class name="com.Paynear.Portal.Portal_login">
+        <methods>
+          <include name="setupSuite"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.Portal_login -->
+      <class name="com.Paynear.Portal.portal_MIDIncrmnt3">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt3 -->
+      <class name="com.Paynear.Portal.Portal_Device_Assign2">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.Portal_Device_Assign2 -->
+      <class name="com.PaySwiff.portalCases.Portal_MerchantLive">
+        <methods>
+          <include name="FT_MIDUpload"/>
+        </methods>
+      </class> <!-- com.PaySwiff.portalCases.Portal_MerchantLive -->
+      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign3">
+        <methods>
+          <include name="FT_MIDUpload"/>
+        </methods>
+      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign3 -->
+      <class name="com.Paynear.Portal.portal_MIDDeactive">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.portal_MIDDeactive -->
+      <class name="com.PaySwiff.portalCases.Portal_Device_Assign">
+        <methods>
+          <include name="FT_MIDUpload"/>
+        </methods>
+      </class> <!-- com.PaySwiff.portalCases.Portal_Device_Assign -->
+      <class name="com.Paynear.Portal.portal_MIDIncrmnt">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt -->
+      <class name="com.FTCash.Panel.Fetch_MerchDetails">
+        <methods>
+          <include name="TestMerch"/>
+        </methods>
+      </class> <!-- com.FTCash.Panel.Fetch_MerchDetails -->
+      <class name="com.Paynear.Portal.Portal_Device_Assign3">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.Portal_Device_Assign3 -->
+      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign">
+        <methods>
+          <include name="FT_MIDUpload"/>
+        </methods>
+      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign -->
+      <class name="com.Paynear.Portal.Portal_BulkMerchantUpload">
+        <methods>
+          <include name="FT_BulkMerchantUpload"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.Portal_BulkMerchantUpload -->
+      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign2">
+        <methods>
+          <include name="FT_MIDUpload"/>
+        </methods>
+      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign2 -->
+      <class name="com.Paynear.Portal.portal_MIDDeactive4">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.portal_MIDDeactive4 -->
+      <class name="com.Paynear.Portal.portal_MIDIncrmnt2">
+        <methods>
+          <include name="Device_Assign"/>
+        </methods>
+      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt2 -->
       <class name="com.Paynear.Portal.portal_MIDDeactive2">
         <methods>
           <include name="Device_Assign"/>
         </methods>
       </class> <!-- com.Paynear.Portal.portal_MIDDeactive2 -->
-      <class name="com.Paynear.Portal.Portal_login">
+      <class name="com.Paynear.Portal.portal_MIDDeactive3">
         <methods>
-          <include name="setupSuite"/>
-          <include name="endSuite"/>
-          <include name="tearDown"/>
-          <include name="endReport"/>
+          <include name="Device_Assign"/>
         </methods>
-      </class> <!-- com.Paynear.Portal.Portal_login -->
+      </class> <!-- com.Paynear.Portal.portal_MIDDeactive3 -->
     </classes>
   </test> <!-- sampleClass(failed) -->
 </suite> <!-- Failed suite [sample] -->

@@ -88,6 +88,7 @@ public class DriverConfig {
 				
 					System.setProperty(Constants.CHROME_WEBDRIVER,
 					baseProjectPath.concat(Constants.CHROME_DRIVER_PATH));
+					System.out.println(baseProjectPath.concat(Constants.CHROME_DRIVER_PATH));
 					driver = ThreadGuard.protect(new ChromeDriver());
 					driver.manage().window().maximize();
 					
@@ -98,6 +99,7 @@ public class DriverConfig {
 					} 
 					catch (Throwable throwable) {
 					LOG.error("Error while loading Chrome driver::{}", throwable.getMessage());
+					throwable.printStackTrace();
 					}
 				break;
 

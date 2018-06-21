@@ -1,23 +1,12 @@
 package com.partnerPortal.PageValidations;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 import com.FTCash.Panel.testClassMerch_panel;
 import com.payswiff.config.SeleniumNGSuite;
 import com.payswiff.constants.Constants;
 import com.payswiff.util.DriverUtilsImpl;
-import com.payswiff.util.FT_GenricUtily;
-import com.payswiff.util.TestResultUtils;
-import com.relevantcodes.extentreports.LogStatus;
 
 public class Test {
 	
@@ -29,6 +18,7 @@ public class Test {
 	public static String baseProjectPath = System.getProperty(Constants.USER_DIR);
 
 
+	public static void main(String args[]) {/*
 	@org.testng.annotations.Test
 	public void TestMerch() throws Exception {
 		
@@ -54,7 +44,7 @@ public class Test {
 		
 		driver.findElement(By.xpath(".//*[@id='log']/input[2]")).click();
 		
-		/*
+		
 		driver.findElement(By.xpath(".//*[@id='merchantsSlider']/a")).click();
 		
 		//Thread.sleep(2000);
@@ -80,11 +70,11 @@ public class Test {
 		System.out.println("UStatus: " +UStatus);
 		
 		//Users tab
-		driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[3]/div[1]/h4/a")).click();*/
+		driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[3]/div[1]/h4/a")).click();
 		
 		
 		//To fetch the TIDs from POS MID TID tab
-		/*driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[1]/h4/a")).click();
+		driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[1]/h4/a")).click();
 		Thread.sleep(2000);
 		
 		String Proc= driver.findElement(By.xpath(".//*[@id='DataTables_Table_1']/tbody/tr[1]/td[4]")).getText();
@@ -97,9 +87,9 @@ public class Test {
 		
 		String Dev= driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[9]/div[2]/div/div[2]/div/form/div[1]/div/table/tbody/tr[1]/td[1]")).getText();
 		System.out.println("MID TID proc: " +Dev);
-		*/
 		
-		/*String TID1= driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[2]/div/div[2]/div/form/div[1]/div/table/tbody/tr[1]/td[2]")).getText();
+		
+		String TID1= driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[2]/div/div[2]/div/form/div[1]/div/table/tbody/tr[1]/td[2]")).getText();
 		String TID2= driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[2]/div/div[2]/div/form/div[1]/div/table/tbody/tr[2]/td[2]")).getText();
 		String TID3= driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[2]/div/div[2]/div/form/div[1]/div/table/tbody/tr[3]/td[2]")).getText();
 		String TID4= driver.findElement(By.xpath("html/body/div[4]/div/div[2]/div[2]/div/div[3]/div/div[8]/div[2]/div/div[2]/div/form/div[1]/div/table/tbody/tr[4]/td[2]")).getText();
@@ -187,7 +177,29 @@ public class Test {
 			System.out.println("Al Devices are Auto Configured");
 		}else {
 			System.out.println("All devices are not configured. Please check the Devices and Terminals");
-		}*/
+		}
 	
+	*/
+		
+		String str = "aaaadedfffff";
+		
+		char[] c = str.toCharArray();
+		
+		Set<Character> ch1= new LinkedHashSet<>();
+		
+		for(Character ch : c ) {
+			ch1.add(ch);
+		}
+	
+		StringBuilder str1 = new StringBuilder();
+		
+		for(Character c1: ch1) {
+			str1.append(c1);
+		}
+		
+		System.out.println(str1.toString());
+		
+		
+		
 	}
 }

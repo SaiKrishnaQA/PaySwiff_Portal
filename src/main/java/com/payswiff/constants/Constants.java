@@ -364,7 +364,7 @@ public class Constants {
 	// Driver Paths
 	/** The Constant CHROME_DRIVER_PATH. */
 	// Chrome
-	public static final String CHROME_DRIVER_PATH = "/src/main/resources/Drivers/chromedriver.exe";
+	public static final String CHROME_DRIVER_PATH = "/src/main/resources/chromedriver.exe";
 
 	/** The Constant CHROME_WEBDRIVER. */
 	public static final String CHROME_WEBDRIVER = "webdriver.chrome.driver";
