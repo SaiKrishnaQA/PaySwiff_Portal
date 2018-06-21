@@ -38,7 +38,6 @@ public class Portal_login {
 		TestResultUtils.extentReportInitialize();
 		
 	}
-	
 	@AfterTest
 	public void endSuite() throws Exception{
 		
