@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="17" failed="0" total="17" passed="0">
+<testng-results skipped="6" failed="0" total="6" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="sample" duration-ms="1078" started-at="2018-06-04T05:12:33Z" finished-at="2018-06-04T05:12:34Z">
+  <suite name="sample" duration-ms="1219" started-at="2018-06-21T12:50:43Z" finished-at="2018-06-21T12:50:45Z">
     <groups>
     </groups>
-    <test name="sampleClass" duration-ms="1078" started-at="2018-06-04T05:12:33Z" finished-at="2018-06-04T05:12:34Z">
-      <class name="com.Paynear.Portal.Portal_Device_Assign2">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.Portal_Device_Assign2@2d6eabae]" name="Device_Assign" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.Portal_Device_Assign2 -->
-      <class name="com.Paynear.Portal.Portal_Device_Assign3">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.Portal_Device_Assign3@4e7dc304]" name="Device_Assign" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.Portal_Device_Assign3 -->
+    <test name="sampleClass" duration-ms="1219" started-at="2018-06-21T12:50:43Z" finished-at="2018-06-21T12:50:45Z">
       <class name="com.Paynear.Portal.Portal_login">
-        <test-method status="FAIL" signature="setupSuite()[pri:0, instance:com.Paynear.Portal.Portal_login@71bbf57e]" name="setupSuite" is-config="true" duration-ms="0" started-at="2018-06-04T10:42:33Z" finished-at="2018-06-04T10:42:33Z">
+        <test-method status="FAIL" signature="setupSuite()[pri:0, instance:com.Paynear.Portal.Portal_login@1e6d1014]" name="setupSuite" is-config="true" duration-ms="0" started-at="2018-06-21T18:20:43Z" finished-at="2018-06-21T18:20:43Z">
           <exception class="java.lang.Exception">
             <message>
               <![CDATA[java.lang.NullPointerException]]>
@@ -56,107 +44,53 @@ Caused by: java.lang.NullPointerException
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="SKIP" signature="testMethod()[pri:0, instance:com.Paynear.Portal.Portal_login@71bbf57e]" name="testMethod" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+        <test-method status="SKIP" signature="testMethod()[pri:0, instance:com.Paynear.Portal.Portal_login@1e6d1014]" name="testMethod" duration-ms="1" started-at="2018-06-21T18:20:44Z" finished-at="2018-06-21T18:20:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod -->
-        <test-method status="SKIP" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.Paynear.Portal.Portal_login@71bbf57e]" name="endReport" is-config="true" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+        <test-method status="SKIP" signature="endReport(org.testng.ITestResult)[pri:0, instance:com.Paynear.Portal.Portal_login@1e6d1014]" name="endReport" is-config="true" duration-ms="0" started-at="2018-06-21T18:20:44Z" finished-at="2018-06-21T18:20:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method status="SKIP" signature="endSuite()[pri:0, instance:com.Paynear.Portal.Portal_login@71bbf57e]" name="endSuite" is-config="true" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+        <test-method status="SKIP" signature="endSuite()[pri:0, instance:com.Paynear.Portal.Portal_login@1e6d1014]" name="endSuite" is-config="true" duration-ms="0" started-at="2018-06-21T18:20:45Z" finished-at="2018-06-21T18:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endSuite -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.Paynear.Portal.Portal_login@71bbf57e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.Paynear.Portal.Portal_login@1e6d1014]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-06-21T18:20:45Z" finished-at="2018-06-21T18:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.Paynear.Portal.Portal_login -->
       <class name="com.Paynear.Portal.Portal_BulkMerchantUpload">
-        <test-method status="SKIP" signature="FT_BulkMerchantUpload()[pri:0, instance:com.Paynear.Portal.Portal_BulkMerchantUpload@7f13d6e]" name="FT_BulkMerchantUpload" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+        <test-method status="SKIP" signature="FT_BulkMerchantUpload()[pri:0, instance:com.Paynear.Portal.Portal_BulkMerchantUpload@76707e36]" name="FT_BulkMerchantUpload" duration-ms="1" started-at="2018-06-21T18:20:44Z" finished-at="2018-06-21T18:20:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FT_BulkMerchantUpload -->
       </class> <!-- com.Paynear.Portal.Portal_BulkMerchantUpload -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDDeactive@6895a785]" name="Device_Assign" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_Assign">
-        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.PaySwiff.portalCases.Portal_Device_Assign@23faf8f2]" name="FT_MIDUpload" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FT_MIDUpload -->
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_Assign -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive2">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDDeactive2@184f6be2]" name="Device_Assign" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive2 -->
-      <class name="com.FTCash.Panel.Fetch_MerchDetails">
-        <test-method status="SKIP" signature="TestMerch()[pri:0, instance:com.FTCash.Panel.Fetch_MerchDetails@51cdd8a]" name="TestMerch" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TestMerch -->
-      </class> <!-- com.FTCash.Panel.Fetch_MerchDetails -->
-      <class name="com.Paynear.Portal.portal_MIDIncrmnt2">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDIncrmnt2@10bbd20a]" name="Device_Assign" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt2 -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign2">
-        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.PaySwiff.portalCases.Portal_Device_DeAssign2@1f7030a6]" name="FT_MIDUpload" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FT_MIDUpload -->
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign2 -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign3">
-        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.PaySwiff.portalCases.Portal_Device_DeAssign3@5a1c0542]" name="FT_MIDUpload" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FT_MIDUpload -->
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign3 -->
-      <class name="com.Paynear.Portal.portal_MIDIncrmnt">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDIncrmnt@64729b1e]" name="Device_Assign" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt -->
-      <class name="com.Paynear.Portal.portal_MIDIncrmnt3">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDIncrmnt3@48503868]" name="Device_Assign" duration-ms="0" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt3 -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive4">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDDeactive4@394e1a0f]" name="Device_Assign" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive4 -->
       <class name="com.PaySwiff.portalCases.Portal_MerchantLive">
-        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.PaySwiff.portalCases.Portal_MerchantLive@d44fc21]" name="FT_MIDUpload" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.PaySwiff.portalCases.Portal_MerchantLive@1f554b06]" name="FT_MIDUpload" duration-ms="1" started-at="2018-06-21T18:20:44Z" finished-at="2018-06-21T18:20:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FT_MIDUpload -->
       </class> <!-- com.PaySwiff.portalCases.Portal_MerchantLive -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign">
-        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.PaySwiff.portalCases.Portal_Device_DeAssign@56aac163]" name="FT_MIDUpload" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+      <class name="com.Portal_validation.Portal_MerchDetail_Validation">
+        <test-method status="SKIP" signature="FT_MIDUpload()[pri:0, instance:com.Portal_validation.Portal_MerchDetail_Validation@1c3a4799]" name="FT_MIDUpload" duration-ms="0" started-at="2018-06-21T18:20:45Z" finished-at="2018-06-21T18:20:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FT_MIDUpload -->
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive3">
-        <test-method status="SKIP" signature="Device_Assign()[pri:0, instance:com.Paynear.Portal.portal_MIDDeactive3@396f6598]" name="Device_Assign" duration-ms="1" started-at="2018-06-04T10:42:34Z" finished-at="2018-06-04T10:42:34Z">
+      </class> <!-- com.Portal_validation.Portal_MerchDetail_Validation -->
+      <class name="com.FTCash.Panel.Fetch_MerchDetails">
+        <test-method status="SKIP" signature="TestMerch()[pri:0, instance:com.FTCash.Panel.Fetch_MerchDetails@614ddd49]" name="TestMerch" duration-ms="0" started-at="2018-06-21T18:20:44Z" finished-at="2018-06-21T18:20:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Device_Assign -->
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive3 -->
+        </test-method> <!-- TestMerch -->
+      </class> <!-- com.FTCash.Panel.Fetch_MerchDetails -->
+      <class name="com.PaySwiff.portalCases.Portal_ActLogin">
+        <test-method status="SKIP" signature="Logout()[pri:0, instance:com.PaySwiff.portalCases.Portal_ActLogin@694e1548]" name="Logout" duration-ms="0" started-at="2018-06-21T18:20:44Z" finished-at="2018-06-21T18:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.PaySwiff.portalCases.Portal_ActLogin -->
     </test> <!-- sampleClass -->
   </suite> <!-- sample -->
 </testng-results>

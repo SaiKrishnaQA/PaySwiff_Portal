@@ -9,86 +9,31 @@
           <include name="testMethod"/>
         </methods>
       </class> <!-- com.Paynear.Portal.Portal_login -->
-      <class name="com.Paynear.Portal.portal_MIDIncrmnt3">
-        <methods>
-          <include name="Device_Assign"/>
-        </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt3 -->
-      <class name="com.Paynear.Portal.Portal_Device_Assign2">
-        <methods>
-          <include name="Device_Assign"/>
-        </methods>
-      </class> <!-- com.Paynear.Portal.Portal_Device_Assign2 -->
-      <class name="com.PaySwiff.portalCases.Portal_MerchantLive">
-        <methods>
-          <include name="FT_MIDUpload"/>
-        </methods>
-      </class> <!-- com.PaySwiff.portalCases.Portal_MerchantLive -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign3">
-        <methods>
-          <include name="FT_MIDUpload"/>
-        </methods>
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign3 -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive">
-        <methods>
-          <include name="Device_Assign"/>
-        </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_Assign">
-        <methods>
-          <include name="FT_MIDUpload"/>
-        </methods>
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_Assign -->
-      <class name="com.Paynear.Portal.portal_MIDIncrmnt">
-        <methods>
-          <include name="Device_Assign"/>
-        </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt -->
-      <class name="com.FTCash.Panel.Fetch_MerchDetails">
-        <methods>
-          <include name="TestMerch"/>
-        </methods>
-      </class> <!-- com.FTCash.Panel.Fetch_MerchDetails -->
-      <class name="com.Paynear.Portal.Portal_Device_Assign3">
-        <methods>
-          <include name="Device_Assign"/>
-        </methods>
-      </class> <!-- com.Paynear.Portal.Portal_Device_Assign3 -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign">
-        <methods>
-          <include name="FT_MIDUpload"/>
-        </methods>
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign -->
       <class name="com.Paynear.Portal.Portal_BulkMerchantUpload">
         <methods>
           <include name="FT_BulkMerchantUpload"/>
         </methods>
       </class> <!-- com.Paynear.Portal.Portal_BulkMerchantUpload -->
-      <class name="com.PaySwiff.portalCases.Portal_Device_DeAssign2">
+      <class name="com.Portal_validation.Portal_MerchDetail_Validation">
         <methods>
           <include name="FT_MIDUpload"/>
         </methods>
-      </class> <!-- com.PaySwiff.portalCases.Portal_Device_DeAssign2 -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive4">
+      </class> <!-- com.Portal_validation.Portal_MerchDetail_Validation -->
+      <class name="com.PaySwiff.portalCases.Portal_MerchantLive">
         <methods>
-          <include name="Device_Assign"/>
+          <include name="FT_MIDUpload"/>
         </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive4 -->
-      <class name="com.Paynear.Portal.portal_MIDIncrmnt2">
+      </class> <!-- com.PaySwiff.portalCases.Portal_MerchantLive -->
+      <class name="com.PaySwiff.portalCases.Portal_ActLogin">
         <methods>
-          <include name="Device_Assign"/>
+          <include name="Logout"/>
         </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDIncrmnt2 -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive2">
+      </class> <!-- com.PaySwiff.portalCases.Portal_ActLogin -->
+      <class name="com.FTCash.Panel.Fetch_MerchDetails">
         <methods>
-          <include name="Device_Assign"/>
+          <include name="TestMerch"/>
         </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive2 -->
-      <class name="com.Paynear.Portal.portal_MIDDeactive3">
-        <methods>
-          <include name="Device_Assign"/>
-        </methods>
-      </class> <!-- com.Paynear.Portal.portal_MIDDeactive3 -->
+      </class> <!-- com.FTCash.Panel.Fetch_MerchDetails -->
     </classes>
   </test> <!-- sampleClass(failed) -->
 </suite> <!-- Failed suite [sample] -->
