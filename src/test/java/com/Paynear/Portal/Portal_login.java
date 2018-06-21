@@ -33,7 +33,6 @@ public class Portal_login {
 		System.out.println("Before Suite Runs");
 		
 		testSuite.setUpSuite();
-		
 		TestResultUtils.outputFolder();
 		TestResultUtils.extentReportInitialize();
 		
